@@ -18,9 +18,3 @@ public class Topic extends Message {
 		super(auth, subj, bod, id);
 		childList = new ArrayList<Message>();
 	}
-
-	// Returns if it's a reply (false)
-	public boolean isReply(){
-		return false;
-	}
-}
