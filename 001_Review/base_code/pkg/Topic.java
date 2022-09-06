@@ -18,3 +18,4 @@ public class Topic extends Message {
 		super(auth, subj, bod, id);
 		childList = new ArrayList<Message>();
 	}
+}

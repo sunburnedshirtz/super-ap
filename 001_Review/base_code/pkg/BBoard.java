@@ -72,7 +72,7 @@ public class BBoard {
 		int i, childListSize;
 		for ( i = 0; i < messageList.size(); i++) {
 			if(!(messageList.get(i).isReply())) {
-				System.out.println("---------------------------------------");
+				//System.out.println("---------------------------------------");
 				messageList.get(i).print(0);
 			} 
 		}

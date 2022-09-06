@@ -24,7 +24,6 @@ public class Message {
 	}
 
 	public void print(int indentation) {
-		System.out.println("---------------------------------------");
 		indent(indentation);
 		System.out.println("Message #" +id+ ": \"" +subj+ "\"\nFrom " +auth+ ": " +bod);
 		for (int i = 0; i < childList.size(); i++)
